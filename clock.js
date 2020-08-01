@@ -6,11 +6,9 @@ function getTime() {
 
   const hours = ("0" + date.getHours()).slice("-2");
   const minutes = date.getMinutes();
-  const seconds = date.getSeconds();
+  // const seconds = date.getSeconds();
 
-  clockTitle.innerText = `${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${
-    seconds < 10 ? `0${seconds}` : seconds
-  }`;
+  clockTitle.innerText = `${hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
 }
 
 function init() {

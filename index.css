@@ -1,7 +1,73 @@
+html,
+body {
+  height: 100%;
+}
 body {
   background-color: #778ca3;
   color: white;
 }
+header {
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clock__title {
+  font-size: 200px;
+  margin: 0;
+  line-height: 80%;
+  display: inline;
+}
+
+.form input,
+.toDoForm input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: white;
+}
+.form input {
+  padding-bottom: 5px;
+}
+.toDoForm input {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+.form input::placeholder,
+.toDoForm input::placeholder {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+.form input:focus,
+.toDoForm input:focus {
+  outline: none;
+}
+
+.form input,
+.greetings {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  height: 250px;
+  width: 250px;
+  overflow-y: scroll;
+}
+
 .form,
 .greetings {
   display: none;
@@ -27,4 +93,19 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+.btnStyle {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 25px;
+  margin-right: 5px;
+}
+.spanStyle {
+  font-size: 30px;
+}
+
+.liStyle {
+  display: flex;
+  align-items: center;
 }
