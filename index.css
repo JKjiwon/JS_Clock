@@ -52,7 +52,7 @@ main {
 .toDoForm input:focus {
   outline: none;
 }
-/* usingname */
+
 .form input,
 .greetings {
   margin: 0;
@@ -64,7 +64,7 @@ ul {
   list-style: none;
   padding-left: 0px;
   height: 250px;
-  width: 250px;
+  width: 100%;
   overflow-y: scroll;
 }
 
