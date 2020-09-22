@@ -1,5 +1,5 @@
 # Momentum
 
-간단한 일정 관리 앱
+TODO 앱
 
-git pages 배포 - https://jkjiwon.github.io/Momentum/
+git page 배포 - https://jkjiwon.github.io/Momentum/
